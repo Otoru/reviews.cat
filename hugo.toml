@@ -1,0 +1,50 @@
+baseURL = 'https://reviews.cat/'
+languageCode = 'pt-BR'
+paginate = 5
+title = 'Reviews.cat'
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpire = false
+defaultContentLanguage = 'BR'
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params.homeInfoParams]
+Title = 'Reviews.cat'
+Content = """
+Vamos juntos descobrir produtos incríveis! 🌟
+"""
+
+[params.assets]
+disableHLJS = true
+favicon16x16 = "icon.png"
+
+[params]
+env = 'production'
+author = 'Vitor Hugo'
+ShowShareButtons = true
+ShowReadingTime = true
+displayFullLangName = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+ShowAllPagesInArchive = true
+ShowPageNums = true
+ShowToc = true
+
+[languages.BR]
+languageName = "Português"
+weight = 1
+
+[[languages.BR.menu.main]]
+name = "Buscar"
+url = "search/"
+weight = 10
