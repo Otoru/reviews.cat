@@ -10,7 +10,7 @@ buildExpire = false
 defaultContentLanguage = 'BR'
 
 [services.googleAnalytics]
-ID = 'G-TCYDDZS6G4'
+ID = 'G-XHFF1V9ZWT'
 
 [minify]
 disableXML = true
