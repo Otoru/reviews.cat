@@ -1,5 +1,5 @@
 baseURL = 'https://reviews.cat/'
-languageCode = 'pt-BR'
+languageCode = 'pt'
 paginate = 5
 title = 'Reviews.cat'
 theme = "PaperMod"
@@ -35,13 +35,13 @@ author = 'Vitor Hugo'
 ShowShareButtons = true
 ShowReadingTime = true
 displayFullLangName = true
-ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
 ShowRssButtonInSectionTermList = true
 ShowAllPagesInArchive = true
 ShowPageNums = true
 ShowToc = true
+DateFormat = ":date_short"
 
 [languages.BR]
 languageName = "Português"
