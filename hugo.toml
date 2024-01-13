@@ -9,6 +9,9 @@ buildFuture = false
 buildExpire = false
 defaultContentLanguage = 'BR'
 
+[services.googleAnalytics]
+ID = 'G-TCYDDZS6G4'
+
 [minify]
 disableXML = true
 minifyOutput = true
